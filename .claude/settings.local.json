@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\darlan.evaldt\\\\Desktop\\\\app_exercicio\\\\assets\\\\images\\\\exercises\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\darlan.evaldt\\\\Desktop\\\\app_exercicio\\\\assets\\\\images\\\\photos\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\darlan.evaldt\\\\Desktop\\\\app_exercicio\\\\assets\\\\css\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\darlan.evaldt\\\\Desktop\\\\app_exercicio\\\\assets\\\\js\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:musclevisualizer.exercisedb.dev)",
+      "WebFetch(domain:wger.de)",
+      "PowerShell(& \"C:\\\\Users\\\\DARLAN~1.EVA\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-darlan-evaldt-Desktop-app-exercicio\\\\ae4897bf-6098-422d-83bd-e0f7e9157574\\\\scratchpad\\\\split.ps1\")"
+    ]
+  }
+}

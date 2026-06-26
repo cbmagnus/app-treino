@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Plano de Treino</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>⚡ Plano de Treino</h1>
+  <p>Hipertrofia · 30 min caminhada + 20 min musculação</p>
+</header>
+<div class="tabs" id="tabs" role="tablist" aria-label="Dias da semana"></div>
+<div class="content" id="content"></div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay" onclick="handleOverlayClick(event)">
+  <div class="modal" id="modal">
+    <div class="modal-img-wrap">
+      <div class="modal-img-frame">
+        <img id="modal-img0" src="" alt="">
+        <img id="modal-img1" src="" alt="" class="hidden">
+      </div>
+      <div class="phase-label" id="phase-label">INÍCIO</div>
+      <button class="modal-close" onclick="closeModal()" aria-label="Fechar exercício">✕</button>
+      <div class="anim-bar-track"><div class="anim-bar-fill" id="anim-bar"></div></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-exname" id="modal-exname"></div>
+      <div class="modal-muscles" id="modal-muscles"></div>
+      <div class="modal-desc" id="modal-desc"></div>
+      <div class="modal-sets" id="modal-sets"></div>
+      <div class="modal-timer" id="modal-timer" style="display:none">
+        <button class="timer-btn" id="timer-btn" onclick="toggleTimer()">
+          <span class="timer-icon">⏱</span>
+          <span class="timer-label" id="timer-label">Iniciar descanso</span>
+        </button>
+        <div class="timer-ring-wrap">
+          <svg class="timer-ring" viewBox="0 0 64 64">
+            <circle class="timer-ring-bg" cx="32" cy="32" r="28"/>
+            <circle class="timer-ring-fill" id="timer-ring-fill" cx="32" cy="32" r="28"/>
+          </svg>
+          <span class="timer-countdown" id="timer-countdown"></span>
+        </div>
+      </div>
+      <div class="modal-replace-note" id="modal-replace-note" style="display:none"></div>
+    </div>
+  </div>
+</div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

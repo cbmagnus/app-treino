@@ -1,0 +1,177 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c0c0"/>
+      <stop offset="45%" stop-color="#909090"/>
+      <stop offset="100%" stop-color="#606060"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0d0d0d"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#161616" stroke-width="0.5">
+    <line x1="0" y1="166" x2="400" y2="166"/>
+    <line x1="0" y1="332" x2="400" y2="332"/>
+    <line x1="133" y1="0" x2="133" y2="500"/>
+    <line x1="266" y1="0" x2="266" y2="500"/>
+  </g>
+
+  <!-- ===== BARBELL (behind arms) ===== -->
+  <rect x="4"   y="106" width="17" height="34" rx="3" fill="#555" stroke="#666" stroke-width="1.5"/>
+  <rect x="21"  y="111" width="10" height="24" rx="2" fill="#666"/>
+  <rect x="31"  y="115" width="338" height="14" rx="4" fill="url(#metalGrad)"/>
+  <g stroke="#ccc" stroke-width="1.5" opacity="0.4">
+    <line x1="45"  y1="115" x2="45"  y2="129"/>
+    <line x1="51"  y1="115" x2="51"  y2="129"/>
+    <line x1="57"  y1="115" x2="57"  y2="129"/>
+    <line x1="343" y1="115" x2="343" y2="129"/>
+    <line x1="349" y1="115" x2="349" y2="129"/>
+    <line x1="355" y1="115" x2="355" y2="129"/>
+  </g>
+  <rect x="369" y="111" width="10" height="24" rx="2" fill="#666"/>
+  <rect x="379" y="106" width="17" height="34" rx="3" fill="#555" stroke="#666" stroke-width="1.5"/>
+
+  <!-- ===== BODY SILHOUETTE ===== -->
+
+  <!-- Hips -->
+  <path d="M 162 355 Q 200 370 238 355 L 240 392 Q 200 400 160 392 Z" fill="#222"/>
+
+  <!-- Torso -->
+  <path d="M 148 192
+           C 145 222 143 258 145 296
+           C 146 326 153 347 162 358
+           Q 200 370 238 358
+           C 247 347 254 326 255 296
+           C 257 258 255 222 252 192
+           C 244 179 226 175 200 175
+           C 174 175 156 179 148 192 Z"
+        fill="#252525"/>
+
+  <!-- Sternum / mid-line -->
+  <line x1="200" y1="186" x2="200" y2="322" stroke="#1d1d1d" stroke-width="1.5"/>
+
+  <!-- Abs lines -->
+  <line x1="171" y1="256" x2="229" y2="256" stroke="#1d1d1d" stroke-width="1.5"/>
+  <line x1="167" y1="290" x2="233" y2="290" stroke="#1d1d1d" stroke-width="1.5"/>
+  <line x1="163" y1="320" x2="237" y2="320" stroke="#1d1d1d" stroke-width="1.5"/>
+
+  <!-- Neck -->
+  <path d="M 188 155 L 184 178 L 216 178 L 212 155 Z" fill="#252525"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="122" r="36" fill="#2a2a2a"/>
+  <!-- Hair -->
+  <path d="M 166 110 Q 183 80 200 77 Q 217 80 234 110 L 234 88 Q 200 72 166 88 Z" fill="#1a1a1a"/>
+  <!-- Eyes -->
+  <ellipse cx="188" cy="120" rx="4" ry="5" fill="#1e1e1e"/>
+  <ellipse cx="212" cy="120" rx="4" ry="5" fill="#1e1e1e"/>
+  <!-- Mouth -->
+  <path d="M 192 136 Q 200 142 208 136" stroke="#1e1e1e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Ears -->
+  <ellipse cx="165" cy="124" rx="7" ry="10" fill="#252525"/>
+  <ellipse cx="235" cy="124" rx="7" ry="10" fill="#252525"/>
+
+  <!-- Shoulder caps -->
+  <circle cx="140" cy="185" r="26" fill="#252525"/>
+  <circle cx="260" cy="185" r="26" fill="#252525"/>
+
+  <!-- Left arm (INÍCIO — extended ~35° above horizontal) -->
+  <!-- upper arm: (140,185) → (76,143) -->
+  <line x1="140" y1="185" x2="76"  y2="143" stroke="#252525" stroke-width="26" stroke-linecap="round"/>
+  <!-- forearm: (76,143) → (35,117) -->
+  <line x1="76"  y1="143" x2="35"  y2="117" stroke="#242424" stroke-width="21" stroke-linecap="round"/>
+  <circle cx="76" cy="143" r="13" fill="#242424"/>
+  <circle cx="35" cy="117" r="12" fill="#242424"/>
+
+  <!-- Right arm -->
+  <line x1="260" y1="185" x2="324" y2="143" stroke="#252525" stroke-width="26" stroke-linecap="round"/>
+  <line x1="324" y1="143" x2="365" y2="117" stroke="#242424" stroke-width="21" stroke-linecap="round"/>
+  <circle cx="324" cy="143" r="13" fill="#242424"/>
+  <circle cx="365" cy="117" r="12" fill="#242424"/>
+
+  <!-- ===== MUSCLE HIGHLIGHTS ===== -->
+
+  <!-- Peitoral maior — LEFT -->
+  <path d="M 200 188
+           Q 180 182 161 194
+           Q 147 206 147 228
+           Q 147 252 156 266
+           Q 169 277 185 273
+           Q 198 267 200 258 Z"
+        fill="#e63946" fill-opacity="0.82" filter="url(#glow)"/>
+
+  <!-- Peitoral maior — RIGHT -->
+  <path d="M 200 188
+           Q 220 182 239 194
+           Q 253 206 253 228
+           Q 253 252 244 266
+           Q 231 277 215 273
+           Q 202 267 200 258 Z"
+        fill="#e63946" fill-opacity="0.82" filter="url(#glow)"/>
+
+  <!-- Deltóide anterior — LEFT -->
+  <path d="M 140 163
+           Q 125 167 119 181
+           Q 114 197 122 209
+           Q 130 218 143 215
+           Q 156 210 156 196
+           Q 157 181 149 171 Z"
+        fill="#e63946" fill-opacity="0.85" filter="url(#glow)"/>
+
+  <!-- Deltóide anterior — RIGHT -->
+  <path d="M 260 163
+           Q 275 167 281 181
+           Q 286 197 278 209
+           Q 270 218 257 215
+           Q 244 210 244 196
+           Q 243 181 251 171 Z"
+        fill="#e63946" fill-opacity="0.85" filter="url(#glow)"/>
+
+  <!-- Tríceps — LEFT (back of extended upper arm) -->
+  <path d="M 143 200
+           Q 127 190 109 168
+           Q 95  150 83  138
+           Q 77  139 74  145
+           Q 80  153 95  168
+           Q 113 185 127 204
+           Q 135 213 143 214 Z"
+        fill="#e63946" fill-opacity="0.62" filter="url(#glow)"/>
+
+  <!-- Tríceps — RIGHT -->
+  <path d="M 257 200
+           Q 273 190 291 168
+           Q 305 150 317 138
+           Q 323 139 326 145
+           Q 320 153 305 168
+           Q 287 185 273 204
+           Q 265 213 257 214 Z"
+        fill="#e63946" fill-opacity="0.62" filter="url(#glow)"/>
+
+  <!-- ===== LEGEND ===== -->
+  <rect x="8" y="388" width="152" height="72" rx="6" fill="#0d0d0d" fill-opacity="0.93" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="16" y="404" font-family="Arial,sans-serif" font-size="8.5" fill="#555" font-weight="700" letter-spacing="2">MÚSCULOS ATIVADOS</text>
+
+  <circle cx="20" cy="420" r="5" fill="#e63946"/>
+  <text x="30" y="424" font-family="Arial,sans-serif" font-size="11" fill="#bbb">Peitoral maior</text>
+
+  <circle cx="20" cy="438" r="5" fill="#e63946"/>
+  <text x="30" y="442" font-family="Arial,sans-serif" font-size="11" fill="#bbb">Deltóide anterior</text>
+
+  <circle cx="20" cy="456" r="5" fill="#e63946" fill-opacity="0.65"/>
+  <text x="30" y="460" font-family="Arial,sans-serif" font-size="11" fill="#bbb">Tríceps braquial</text>
+
+  <!-- ===== BOTTOM LABEL ===== -->
+  <rect x="0" y="464" width="400" height="36" fill="#111"/>
+  <line x1="0" y1="464" x2="400" y2="464" stroke="#222" stroke-width="1"/>
+  <text x="200" y="477" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" fill="#555" letter-spacing="3">SUPINO INCLINADO COM BARRA</text>
+  <text x="200" y="495" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="20" font-weight="900" fill="#ffffff" letter-spacing="8">INÍCIO</text>
+</svg>
