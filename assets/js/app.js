@@ -237,33 +237,31 @@ const days = [
       {key:"desenvolvimento_halteres", num:1, name:"Desenvolvimento com Halteres (Sentado)", muscles:"Deltóide anterior/medial · Trapézio · Tríceps", sets:"3–4 × 8–12", rest:"90s entre séries", chips:["3–4 séries","8–12 reps","90s descanso"]},
       {key:"elevacao_lateral", num:2, name:"Elevação Lateral com Halteres", muscles:"Deltóide medial (porção lateral)", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
       {key:"elevacao_frontal", num:3, name:"Elevação Frontal Alternada", muscles:"Deltóide anterior · Trapézio superior", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
-      {key:"rosca_alternada", num:4, name:"Rosca Alternada com Halteres", muscles:"Bíceps braquial · Braquiorradial (manutenção)", sets:"3 × 10–12 cada", rest:"60s entre séries", chips:["3 séries","10–12 reps cada","60s descanso"]},
     ],
     tips:["No desenvolvimento, não leve os cotovelos para frente — mantenha alinhados lateralmente.","Na elevação lateral, suba até a altura do ombro (não acima).","Cargas leves com execução perfeita > cargas altas com compensação.","Descanso muscular do ombro: 48h antes de repetir."]
   },
   {
-    label:"Sex", name:"Sexta-feira", focus:"Costas + Bíceps (B)",
-    tags:["Latíssimo","Bíceps","Trapézio"], color:"#3498db",
+    label:"Sex", name:"Sexta-feira", focus:"Costas + Tríceps (B)",
+    tags:["Latíssimo","Tríceps","Trapézio"], color:"#3498db",
     exercises:[
       {key:"puxada_alta", num:1, name:"Puxada Alta (Lat Pulldown)", muscles:"Latíssimo do dorso · Bíceps · Deltóide posterior", sets:"4 × 10–12", rest:"90s entre séries", chips:["4 séries","10–12 reps","90s descanso"]},
       {key:"remada_sentada", num:2, name:"Remada Sentada no Cabo", muscles:"Latíssimo · Trapézio · Redondo maior/menor", sets:"3 × 10–12", rest:"90s entre séries", chips:["3 séries","10–12 reps","90s descanso"]},
       {key:"cable_pushdown", num:3, name:"Puxada de Tríceps (Cable Pushdown)", muscles:"Tríceps (todas as cabeças)", sets:"3 × 12", rest:"60s entre séries", chips:["3 séries","12 reps","60s descanso"]},
-      {key:"rosca_alternada", num:4, name:"Rosca com Halteres (em pé)", muscles:"Bíceps braquial · Braquial", sets:"3 × 10–12", rest:"75s entre séries", chips:["3 séries","10–12 reps","75s descanso"]},
-      {key:"rosca_concentrada_sentada", num:5, name:"Rosca Concentrada (Sentado)", muscles:"Bíceps (cabeça curta/pico) · Braquiorradial", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
+      {key:"extensao_triceps_halter", num:4, name:"Extensão de Tríceps com Halter", muscles:"Tríceps (cabeça longa) · Ombro estabilizador", sets:"3 × 10–12 cada", rest:"60s entre séries", chips:["3 séries","10–12 reps cada","60s descanso"]},
     ],
-    tips:["Aumente a carga progressivamente a cada semana (+1–2 kg quando completar todas as reps).","Foque na contração isométrica no pico do movimento da rosca.","Se sentir dor articular, reduza a carga e corrija a postura.","Beba proteína pós-treino em até 30–60 min."]
+    tips:["Aumente a carga progressivamente a cada semana (+1–2 kg quando completar todas as reps).","No cable pushdown, mantenha os cotovelos fixos ao lado do corpo — não deixe subirem.","Na extensão com halter, desça devagar para maximizar o alongamento da cabeça longa.","Beba proteína pós-treino em até 30–60 min."]
   },
   {
-    label:"Sáb", name:"Sábado", focus:"Peito + Tríceps (B)",
-    tags:["Peito","Tríceps","Deltóide Anterior"], color:"#e63946",
+    label:"Sáb", name:"Sábado", focus:"Peito + Bíceps (B)",
+    tags:["Peito","Bíceps","Deltóide Anterior"], color:"#e63946",
     exercises:[
       {key:"supino_reto_halteres", num:1, name:"Supino Reto com Halteres", muscles:"Peitoral médio · Tríceps · Estabilizadores", sets:"4 × 8–12", rest:"90s entre séries", chips:["4 séries","8–12 reps","90s descanso"]},
       {key:"crucifixo_halteres", num:2, name:"Crucifixo com Halteres", muscles:"Peitoral (adução/alongamento) · Deltóide anterior", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
       {key:"supino_inclinado_barra", num:3, name:"Supino Inclinado com Barra", muscles:"Peitoral superior · Tríceps", sets:"3 × 10–12", rest:"90s entre séries", chips:["3 séries","10–12 reps","90s descanso"]},
-      {key:"triceps_testa", num:4, name:"Tríceps Testa com Barra W", muscles:"Tríceps (todas as cabeças)", sets:"3 × 10", rest:"75s entre séries", chips:["3 séries","10 reps","75s descanso"]},
-      {key:"extensao_triceps_halter", num:5, name:"Extensão de Tríceps com Halter", muscles:"Tríceps (cabeça longa)", sets:"3 × 12 cada", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
+      {key:"rosca_alternada", num:4, name:"Rosca Alternada com Halteres", muscles:"Bíceps braquial · Braquiorradial", sets:"3 × 10–12 cada", rest:"75s entre séries", chips:["3 séries","10–12 reps cada","75s descanso"]},
+      {key:"rosca_concentrada_sentada", num:5, name:"Rosca Concentrada (Sentado)", muscles:"Bíceps (cabeça curta/pico) · Braquiorradial", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
     ],
-    tips:["No crucifixo, desça até sentir o alongamento — mas sem dor no ombro.","Foque na conexão mente-músculo: 'aperte' o peitoral em cada repetição.","Progrida nas cargas: sem progressão não há hipertrofia.","Anote suas cargas para ter referência na semana seguinte."]
+    tips:["No crucifixo, desça até sentir o alongamento — mas sem dor no ombro.","Foque na conexão mente-músculo no supino: 'aperte' o peitoral em cada repetição.","Na rosca, mantenha os cotovelos fixos — não balance o tronco para ganhar impulso.","Anote suas cargas para ter referência na semana seguinte."]
   },
   {
     label:"Dom", name:"Domingo", focus:"Descanso Completo", rest:true, color:"#2ecc71",
