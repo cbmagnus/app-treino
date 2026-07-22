@@ -1,4 +1,9 @@
 ﻿const MEDIA = {"supino_inclinado_barra": ["assets/images/photos/Barbell_Incline_Bench_Press_-_Medium_Grip_0.jpg", "assets/images/photos/Barbell_Incline_Bench_Press_-_Medium_Grip_1.jpg", "Deite no banco inclinado. Segure a barra com pegada um pouco mais larga que os ombros. Des\u00e7a at\u00e9 o peito superior e empurre para cima, estendendo os bra\u00e7os sem travar os cotovelos."], "supino_reto_halteres": ["assets/images/photos/Dumbbell_Bench_Press_0.jpg", "assets/images/photos/Dumbbell_Bench_Press_1.jpg", "Deite no banco plano, halteres na altura do peito. Empurre para cima at\u00e9 quase estender os bra\u00e7os. Controle a descida em 2-3 segundos."], "supino_reto_barra": ["assets/images/photos/Barbell_Bench_Press_-_Medium_Grip_0.jpg", "assets/images/photos/Barbell_Bench_Press_-_Medium_Grip_1.jpg", "Deite no banco reto, pegada pouco mais larga que os ombros. Retire a barra do suporte e des\u00e7a at\u00e9 tocar levemente o meio do peito. Empurre de volta contraindo o peitoral, sem travar os cotovelos no topo."], "triceps_frances_unilateral": ["assets/images/photos/Standing_One-Arm_Dumbbell_Triceps_Extension_0.jpg", "assets/images/photos/Standing_One-Arm_Dumbbell_Triceps_Extension_1.jpg", "Em p\u00e9, segure um halter com uma m\u00e3o e estenda o bra\u00e7o acima da cabe\u00e7a (mindinho para o teto, palma para frente). Mantendo o cotovelo fixo e pr\u00f3ximo \u00e0 cabe\u00e7a, des\u00e7a o halter atr\u00e1s da cabe\u00e7a em arco. Estenda de volta contraindo o tr\u00edceps. Troque de bra\u00e7o."], "triceps_halter_acima": ["assets/images/photos/Standing_Dumbbell_Triceps_Extension_0.jpg", "assets/images/photos/Standing_Dumbbell_Triceps_Extension_1.jpg", "Em p\u00e9, segure um halter com as duas m\u00e3os e eleve-o acima da cabe\u00e7a, bra\u00e7os estendidos. Cotovelos fixos e apontados para frente, des\u00e7a o halter atr\u00e1s da cabe\u00e7a flexionando os cotovelos. Estenda de volta contraindo o tr\u00edceps."], "triceps_corda": ["assets/images/photos/Triceps_Pushdown_-_Rope_Attachment_0.jpg", "assets/images/photos/Triceps_Pushdown_-_Rope_Attachment_1.jpg", "Em p\u00e9 na polia alta, segure a corda com pegada neutra (palmas uma para a outra). Cotovelos fixos ao lado do corpo, empurre para baixo separando as pontas da corda ao final. Retorne controlando a subida."], "abdominal_crunch": ["assets/images/photos/Crunches_0.jpg", "assets/images/photos/Crunches_1.jpg", "Deitado de costas, joelhos flexionados a 90\u00b0, m\u00e3os leves ao lado da cabe\u00e7a. Contraia o abd\u00f4men elevando os ombros do ch\u00e3o (cerca de 10 cm), mantendo a lombar no ch\u00e3o. Segure a contra\u00e7\u00e3o por 1 segundo e des\u00e7a controlando."], "tesourinha": ["assets/images/photos/Scissor_Kick_0.jpg", "assets/images/photos/Scissor_Kick_1.jpg", "Deitado de costas, bra\u00e7os estendidos ao lado do corpo com as palmas para baixo. Eleve as pernas levemente do ch\u00e3o e alterne: uma perna sobe a 45\u00b0, enquanto a outra desce quase at\u00e9 tocar o ch\u00e3o. Mantenha a lombar apoiada no ch\u00e3o durante todo o movimento."], "puxada_supinada": ["assets/images/photos/Underhand_Cable_Pulldowns_0.jpg", "assets/images/photos/Underhand_Cable_Pulldowns_1.jpg", "Sentado na m\u00e1quina de puxada, pegada supinada (palmas para cima) com m\u00e3os na largura dos ombros. Puxe a barra at\u00e9 o queixo, levando os cotovelos para baixo e atr\u00e1s. Controle a subida em 2\u20133 segundos. Ativa fortemente a parte baixa do lat\u00edssimo e o b\u00edceps."], "puxada_alta": ["assets/images/photos/Wide-Grip_Lat_Pulldown_0.jpg", "assets/images/photos/Wide-Grip_Lat_Pulldown_1.jpg", "Sentado na m\u00e1quina, pegada larga. Puxe a barra at\u00e9 a altura do queixo, levando os cotovelos para baixo. Pense em 'levar cotovelos ao ch\u00e3o'."], "remada_sentada": ["assets/images/photos/Seated_Cable_Rows_0.jpg", "assets/images/photos/Seated_Cable_Rows_1.jpg", "Sentado, coluna reta. Puxe o cabo at\u00e9 o abd\u00f4men retraindo as esc\u00e1pulas. N\u00e3o curve a lombar. Retorne controlando a extens\u00e3o."], "remada_barra": ["assets/images/photos/Bent_Over_Barbell_Row_0.jpg", "assets/images/photos/Bent_Over_Barbell_Row_1.jpg", "Em p\u00e9, segure a barra com pegada pronada. Flexione levemente os joelhos e incline o tronco \u00e0 frente mantendo a coluna reta, quase paralelo ao ch\u00e3o. Puxe a barra at\u00e9 o abd\u00f4men mantendo os cotovelos pr\u00f3ximos ao corpo, contraindo as costas no topo. Des\u00e7a controlando."], "rosca_barra_w": ["assets/images/photos/Barbell_Curl_0.jpg", "assets/images/photos/Barbell_Curl_1.jpg", "Em p\u00e9, barra W com pegada supinada. Mantenha cotovelos fixos ao lado do corpo. Suba a barra contraindo o b\u00edceps. Des\u00e7a lentamente."], "rosca_concentrada_banco": ["assets/images/photos/Preacher_Curl_0.jpg", "assets/images/photos/Preacher_Curl_1.jpg", "Cotovelo apoiado no banco Scott. Suba o halter ou barra contraindo o b\u00edceps at\u00e9 o topo. Des\u00e7a controlando o peso. Foca no pico da contra\u00e7\u00e3o."], "desenvolvimento_halteres": ["assets/images/photos/Seated_Dumbbell_Press_0.jpg", "assets/images/photos/Seated_Dumbbell_Press_1.jpg", "Sentado, halteres na altura dos ombros. Empurre para cima at\u00e9 quase estender os bra\u00e7os. Cotovelos alinhados lateralmente. Des\u00e7a controlando."], "elevacao_lateral": ["assets/images/photos/Side_Lateral_Raise_0.jpg", "assets/images/photos/Side_Lateral_Raise_1.jpg", "Em p\u00e9, halteres ao lado do corpo. Eleve lateralmente at\u00e9 a altura dos ombros. Mantenha leve flex\u00e3o no cotovelo. Des\u00e7a devagar."], "rosca_alternada": ["assets/images/photos/Dumbbell_Alternate_Bicep_Curl_0.jpg", "assets/images/photos/Dumbbell_Alternate_Bicep_Curl_1.jpg", "Em p\u00e9, halteres ao lado do corpo. Suba alternando os bra\u00e7os, girando o pulso no topo (supina\u00e7\u00e3o). Mantenha cotovelos fixos ao lado do tronco."], "crucifixo_halteres": ["assets/images/photos/Dumbbell_Flyes_0.jpg", "assets/images/photos/Dumbbell_Flyes_1.jpg", "Deitado, halteres sobre o peito. Abra os bra\u00e7os em arco at\u00e9 sentir o alongamento do peitoral. Retorne como se abra\u00e7asse uma \u00e1rvore grande."], "cable_pushdown": ["assets/images/photos/Triceps_Pushdown_0.jpg", "assets/images/photos/Triceps_Pushdown_1.jpg", "Em p\u00e9 na polia, cotovelos fixos ao lado do corpo. Empurre o cabo para baixo estendendo os bra\u00e7os. Aperte os tr\u00edceps no final. Retorne controlado."], "rosca_concentrada_sentada": ["assets/images/photos/Concentration_Curls_0.jpg", "assets/images/photos/Concentration_Curls_1.jpg", "Sentado, cotovelo apoiado na coxa interna. Suba o halter contraindo o b\u00edceps. Mantenha o bra\u00e7o superior im\u00f3vel. Foco m\u00e1ximo no m\u00fasculo."], "puxada_braco_estendido": ["assets/images/photos/Straight-Arm_Pulldown_0.jpg", "assets/images/photos/Straight-Arm_Pulldown_1.jpg", "De p\u00e9 na polia alta, segure a barra com os bra\u00e7os quase estendidos. Mantendo os cotovelos levemente flexionados e fixos, puxe a barra para baixo em arco at\u00e9 a altura dos quadris, contraindo o lat\u00edssimo. Retorne controlando o movimento. N\u00e3o curve a coluna."]};
+Object.assign(MEDIA, {
+  "elevacao_frontal": ["assets/images/photos/Front_Dumbbell_Raise_0.jpg", "assets/images/photos/Front_Dumbbell_Raise_1.jpg", "Em pé, halteres à frente das coxas com as palmas voltadas para baixo. Eleve os halteres à frente do corpo, braços quase estendidos, até a altura dos ombros. Desça controlando em 2–3 segundos. Foco no deltoide anterior — não use impulso do tronco."],
+  "prancha": ["assets/images/photos/Plank_0.jpg", "assets/images/photos/Plank_1.jpg", "Apoie os antebraços e as pontas dos pés no chão, cotovelos alinhados sob os ombros. Mantenha o corpo em linha reta da cabeça aos calcanhares, contraindo abdômen e glúteos. Não deixe o quadril subir nem afundar. Sustente a posição pelo tempo alvo, respirando normalmente."],
+  "remada_unilateral": ["assets/images/photos/One-Arm_Dumbbell_Row_0.jpg", "assets/images/photos/One-Arm_Dumbbell_Row_1.jpg", "Apoie um joelho e a mão do mesmo lado no banco, coluna reta e quase paralela ao chão. Com a outra mão, segure o halter com o braço estendido. Puxe o halter em direção ao quadril, mantendo o cotovelo próximo ao corpo e contraindo as costas no topo. Desça controlando. Troque de lado."]
+});
 const EX_DATA = {};
 
 let animTimer = null;
@@ -202,67 +207,68 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 // ——— DAYS DATA ———
 const days = [
   {
-    label:"Seg", name:"Segunda-feira", focus:"Peito + Tríceps",
-    tags:["Peito","Tríceps","Deltóide Anterior"], color:"#e63946",
-    exercises:[
-      {key:"supino_inclinado_barra", num:1, name:"Supino Inclinado com Barra", muscles:"Peitoral superior · Tríceps · Deltóide anterior", sets:"3–4 × 8–12", rest:"90s entre séries", chips:["3–4 séries","8–12 reps","90s descanso"]},
-      {key:"supino_reto_halteres", num:2, name:"Supino Reto com Halteres", muscles:"Peitoral médio · Tríceps · Estabilizadores", sets:"3 × 10–12", rest:"90s entre séries", chips:["3 séries","10–12 reps","90s descanso"]},
-      {key:"triceps_frances_unilateral", num:3, name:"Tríceps Francês Unilateral com Halter", muscles:"Tríceps (cabeça longa, um braço por vez)", sets:"3 × 10–12 cada braço", rest:"75s entre séries", chips:["3 séries","10–12 reps cada","75s descanso"]},
-      {key:"triceps_halter_acima", num:4, name:"Tríceps com Halter Acima da Cabeça", muscles:"Tríceps (cabeça longa, ênfase por posição overhead)", sets:"3 × 10–12", rest:"75s entre séries", chips:["3 séries","10–12 reps","75s descanso"]},
-    ],
-    tips:["Aqueça com 1 série leve antes de cada exercício principal.","No supino, mantenha as escápulas retraídas e o peito expandido.","No tríceps acima da cabeça, cotovelos fixos apontando para frente — não abra para os lados.","Descanso muscular do peito e tríceps: ao menos 48h antes do próximo treino que os inclua."]
-  },
-  {
-    label:"Ter", name:"Terça-feira", focus:"Costas + Bíceps",
-    tags:["Latíssimo","Trapézio","Bíceps","Romboides"], color:"#3498db",
-    exercises:[
-      {key:"puxada_supinada", num:1, name:"Puxada Supinada no Cabo", muscles:"Latíssimo do dorso (porção inferior) · Bíceps braquial · Redondo maior", sets:"3–4 × 10–12", rest:"75s entre séries", chips:["3–4 séries","10–12 reps","75s descanso"]},
-      {key:"remada_barra", num:2, name:"Remada Curvada com Barra", muscles:"Latíssimo · Trapézio · Romboides", sets:"3–4 × 8–12", rest:"90s entre séries", chips:["3–4 séries","8–12 reps","90s descanso"]},
-      {key:"rosca_barra_w", num:3, name:"Rosca Direta com Barra W", muscles:"Bíceps braquial · Braquiorradial", sets:"3 × 10–12", rest:"75s entre séries", chips:["3 séries","10–12 reps","75s descanso"]},
-      {key:"rosca_concentrada_banco", num:4, name:"Rosca no Banco Scott", muscles:"Bíceps braquial (pico) · Braquial", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
-    ],
-    tips:["Na puxada supinada, palmas viradas para cima — isso recruta mais a parte baixa do lat e o bíceps.","Na remada curvada, mantenha a coluna reta e o olhar para frente — não arredonde as costas.","Na rosca no banco Scott, foque no pico da contração, sem balançar o peso.","Descanso muscular das costas e bíceps: mínimo 48h antes de repetir."]
-  },
-  {
-    label:"Qua", name:"Quarta-feira", focus:"Descanso Ativo", rest:true, color:"#2ecc71",
-    tips:["Continue com a caminhada de 30 minutos (recuperação ativa).","Alongamento geral: 10–15 min focando peito, costas e ombros.","Hidratação e alimentação proteica são essenciais neste dia.","Você pode fazer mobilidade articular ou yoga leve."]
-  },
-  {
-    label:"Qui", name:"Quinta-feira", focus:"Ombros + Abdômen",
-    tags:["Deltóide Anterior","Deltóide Medial","Abdômen"], color:"#9b59b6",
+    label:"Seg", name:"Segunda-feira", focus:"Ombros",
+    tags:["Deltóide Anterior","Deltóide Medial","Trapézio"], color:"#9b59b6",
     exercises:[
       {key:"desenvolvimento_halteres", num:1, name:"Desenvolvimento com Halteres (Sentado)", muscles:"Deltóide anterior/medial · Trapézio · Tríceps", sets:"3–4 × 8–12", rest:"90s entre séries", chips:["3–4 séries","8–12 reps","90s descanso"]},
       {key:"elevacao_lateral", num:2, name:"Elevação Lateral com Halteres", muscles:"Deltóide medial (porção lateral)", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
-      {key:"abdominal_crunch", num:3, name:"Abdominal (Crunch)", muscles:"Reto abdominal (porção superior)", sets:"3 × 15–20", rest:"45s entre séries", chips:["3 séries","15–20 reps","45s descanso"]},
-      {key:"tesourinha", num:4, name:"Tesourinha (Scissor Kick)", muscles:"Reto abdominal (porção inferior) · Flexores de quadril", sets:"3 × 15–20 cada lado", rest:"45s entre séries", chips:["3 séries","15–20 reps cada","45s descanso"]},
+      {key:"elevacao_frontal", num:3, name:"Elevação Frontal com Halteres", muscles:"Deltóide anterior", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
     ],
-    tips:["No desenvolvimento, não leve os cotovelos para frente — mantenha alinhados lateralmente.","Na elevação lateral, suba até a altura do ombro (não acima).","No abdominal, não puxe o pescoço com as mãos — o movimento vem da contração abdominal.","Na tesourinha, mantenha a lombar encostada no chão — se sentir a lombar 'arquear', eleve mais as pernas.","Descanso muscular do ombro: 48h antes de repetir. Abdômen pode ser treinado com mais frequência."]
+    tips:["Aqueça o manguito rotador com 1 série leve antes do desenvolvimento.","No desenvolvimento, não leve os cotovelos para frente — mantenha alinhados lateralmente.","Na elevação lateral, suba até a altura do ombro (não acima) e evite balançar o tronco.","Descanso do ombro: o próximo dia que toca deltóide (Peito, na Sexta) fica a 72h — recuperação garantida."]
   },
   {
-    label:"Sex", name:"Sexta-feira", focus:"Costas + Tríceps (B)",
-    tags:["Latíssimo","Tríceps","Trapézio"], color:"#3498db",
+    label:"Ter", name:"Terça-feira", focus:"Abdômen",
+    tags:["Reto Abdominal","Core","Oblíquos"], color:"#f39c12",
+    exercises:[
+      {key:"abdominal_crunch", num:1, name:"Abdominal (Crunch)", muscles:"Reto abdominal (porção superior)", sets:"3 × 15–20", rest:"45s entre séries", chips:["3 séries","15–20 reps","45s descanso"]},
+      {key:"tesourinha", num:2, name:"Tesourinha (Scissor Kick)", muscles:"Reto abdominal (porção inferior) · Flexores de quadril", sets:"3 × 15–20 cada lado", rest:"45s entre séries", chips:["3 séries","15–20 reps cada","45s descanso"]},
+      {key:"prancha", num:3, name:"Prancha (Plank)", muscles:"Core · Reto abdominal · Transverso do abdômen", sets:"3 × 30–45s", rest:"45s entre séries", chips:["3 séries","30–45s","45s descanso"]},
+    ],
+    tips:["No abdominal, não puxe o pescoço com as mãos — o movimento vem da contração abdominal.","Na tesourinha, mantenha a lombar encostada no chão — se ela 'arquear', eleve mais as pernas.","Na prancha, corpo em linha reta: quadril não sobe nem afunda; contraia glúteos e abdômen.","Abdômen se recupera rápido; ainda assim aqui ele tem 6 dias até a próxima sessão."]
+  },
+  {
+    label:"Qua", name:"Quarta-feira", focus:"Tríceps",
+    tags:["Tríceps","Cabeça Longa","Cabeça Lateral"], color:"#ff6b35",
+    exercises:[
+      {key:"cable_pushdown", num:1, name:"Tríceps na Polia (Barra Reta)", muscles:"Tríceps (todas as cabeças)", sets:"3–4 × 10–12", rest:"75s entre séries", chips:["3–4 séries","10–12 reps","75s descanso"]},
+      {key:"triceps_corda", num:2, name:"Tríceps na Polia (Corda)", muscles:"Tríceps (cabeça lateral, maior amplitude com a corda)", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
+      {key:"triceps_frances_unilateral", num:3, name:"Tríceps Francês Unilateral com Halter", muscles:"Tríceps (cabeça longa, um braço por vez)", sets:"3 × 10–12 cada braço", rest:"75s entre séries", chips:["3 séries","10–12 reps cada","75s descanso"]},
+    ],
+    tips:["Na polia com barra reta, mantenha os cotovelos fixos ao lado do corpo — não deixe subirem.","Na polia com corda, separe as pontas no final para ativar mais a cabeça lateral.","No francês unilateral, cotovelo fixo apontando para o teto — só o antebraço se move.","Tríceps fica 48h de Ombros (Seg) e 48h de Peito (Sex) — spot mais apertado do plano, mas dentro da regra."]
+  },
+  {
+    label:"Qui", name:"Quinta-feira", focus:"Costas",
+    tags:["Latíssimo","Trapézio","Romboides"], color:"#3498db",
     exercises:[
       {key:"puxada_alta", num:1, name:"Puxada Alta (Lat Pulldown)", muscles:"Latíssimo do dorso · Bíceps · Deltóide posterior", sets:"4 × 10–12", rest:"90s entre séries", chips:["4 séries","10–12 reps","90s descanso"]},
       {key:"remada_sentada", num:2, name:"Remada Sentada no Cabo", muscles:"Latíssimo · Trapézio · Redondo maior/menor", sets:"3 × 10–12", rest:"90s entre séries", chips:["3 séries","10–12 reps","90s descanso"]},
-      {key:"cable_pushdown", num:3, name:"Tríceps na Polia (Barra Reta)", muscles:"Tríceps (todas as cabeças)", sets:"3 × 12", rest:"60s entre séries", chips:["3 séries","12 reps","60s descanso"]},
-      {key:"triceps_corda", num:4, name:"Tríceps na Polia (Corda)", muscles:"Tríceps (cabeça lateral, maior amplitude com a corda)", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
+      {key:"remada_unilateral", num:3, name:"Remada Unilateral com Halter", muscles:"Latíssimo · Trapézio · Romboides", sets:"3–4 × 8–12 cada lado", rest:"75s entre séries", chips:["3–4 séries","8–12 reps cada","75s descanso"], replaceNote:"Substituiu a <strong>Remada Curvada com Barra</strong> — mesmo padrão de puxada horizontal, com menos carga na lombar."},
     ],
-    tips:["Aumente a carga progressivamente a cada semana (+1–2 kg quando completar todas as reps).","Na polia com barra reta, mantenha os cotovelos fixos ao lado do corpo — não deixe subirem.","Na polia com corda, separe as pontas no final do movimento para ativar mais a cabeça lateral do tríceps.","Beba proteína pós-treino em até 30–60 min."]
+    tips:["Na puxada alta, leve os cotovelos para baixo e atrás — pense em 'guardar os cotovelos no bolso'.","Na remada sentada, retraia as escápulas e não curve a lombar no retorno.","Na remada unilateral, mantenha a coluna reta e o cotovelo próximo ao corpo.","Costas puxa o bíceps como secundário — por isso o dia de Bíceps (Sáb) fica 48h depois."]
   },
   {
-    label:"Sáb", name:"Sábado", focus:"Peito + Bíceps (B)",
-    tags:["Peito","Bíceps","Deltóide Anterior"], color:"#e63946",
+    label:"Sex", name:"Sexta-feira", focus:"Peito",
+    tags:["Peitoral Superior","Peitoral Médio","Deltóide Anterior"], color:"#e63946",
     exercises:[
       {key:"supino_reto_barra", num:1, name:"Supino Reto com Barra", muscles:"Peitoral médio · Tríceps · Deltóide anterior", sets:"4 × 8–12", rest:"90s entre séries", chips:["4 séries","8–12 reps","90s descanso"]},
-      {key:"crucifixo_halteres", num:2, name:"Crucifixo com Halteres", muscles:"Peitoral (adução/alongamento) · Deltóide anterior", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
-      {key:"rosca_alternada", num:3, name:"Rosca Alternada com Halteres", muscles:"Bíceps braquial · Braquiorradial", sets:"3 × 10–12 cada", rest:"75s entre séries", chips:["3 séries","10–12 reps cada","75s descanso"]},
-      {key:"rosca_concentrada_sentada", num:4, name:"Rosca Concentrada (Sentado)", muscles:"Bíceps (cabeça curta/pico) · Braquiorradial", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
+      {key:"supino_inclinado_barra", num:2, name:"Supino Inclinado com Barra", muscles:"Peitoral superior · Tríceps · Deltóide anterior", sets:"3–4 × 8–12", rest:"90s entre séries", chips:["3–4 séries","8–12 reps","90s descanso"]},
+      {key:"crucifixo_halteres", num:3, name:"Crucifixo com Halteres", muscles:"Peitoral (adução/alongamento) · Deltóide anterior", sets:"3 × 12–15", rest:"60s entre séries", chips:["3 séries","12–15 reps","60s descanso"]},
     ],
-    tips:["No supino reto, desça a barra até tocar levemente o meio do peito — sem quicar.","No crucifixo, desça até sentir o alongamento — mas sem dor no ombro.","Na rosca, mantenha os cotovelos fixos — não balance o tronco para ganhar impulso.","Anote suas cargas para ter referência na semana seguinte."]
+    tips:["No supino, mantenha as escápulas retraídas e o peito expandido; desça até tocar levemente o meio do peito, sem quicar.","No inclinado, foque a descida no peitoral superior — banco a ~30–45°.","No crucifixo, desça até sentir o alongamento — mas sem dor no ombro.","Peito puxa tríceps e deltóide como secundários — ambos com 48h+ até a próxima sessão."]
+  },
+  {
+    label:"Sáb", name:"Sábado", focus:"Bíceps",
+    tags:["Bíceps","Braquial","Braquiorradial"], color:"#1abc9c",
+    exercises:[
+      {key:"rosca_barra_w", num:1, name:"Rosca Direta com Barra W", muscles:"Bíceps braquial · Braquiorradial", sets:"3–4 × 10–12", rest:"75s entre séries", chips:["3–4 séries","10–12 reps","75s descanso"]},
+      {key:"rosca_alternada", num:2, name:"Rosca Alternada com Halteres", muscles:"Bíceps braquial · Braquiorradial", sets:"3 × 10–12 cada", rest:"75s entre séries", chips:["3 séries","10–12 reps cada","75s descanso"]},
+      {key:"rosca_concentrada_banco", num:3, name:"Rosca no Banco Scott", muscles:"Bíceps braquial (pico) · Braquial", sets:"3 × 12 cada lado", rest:"60s entre séries", chips:["3 séries","12 reps cada","60s descanso"]},
+    ],
+    tips:["Mantenha os cotovelos fixos — não balance o tronco para ganhar impulso.","Na rosca alternada, gire o pulso no topo (supinação) para contrair mais o bíceps.","No banco Scott, foque no pico da contração e controle bem a descida.","Anote suas cargas para ter referência de progressão na semana seguinte."]
   },
   {
     label:"Dom", name:"Domingo", focus:"Descanso Completo", rest:true, color:"#2ecc71",
-    tips:["Descanso total é quando o músculo efetivamente cresce (síntese proteica).","Durma 7–9 horas: o GH (hormônio do crescimento) é liberado no sono.","Refeições ricas em proteína (1,6–2,2g por kg de peso corporal/dia).","Prepare sua mente e equipamentos para a semana seguinte."]
+    tips:["Descanso total é quando o músculo efetivamente cresce (síntese proteica).","Durma 7–9 horas: o GH (hormônio do crescimento) é liberado no sono.","Refeições ricas em proteína (1,6–2,2g por kg de peso corporal/dia).","Mantenha a caminhada de 30 min se quiser — recuperação ativa leve não atrapalha."]
   }
 ];
 

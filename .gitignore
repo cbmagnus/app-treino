@@ -1,3 +1,6 @@
 # Contexto e instruções sensíveis do projeto
 CONTEXTO_PROJETO_TREINO.md
 project-instructions.txt
+
+# Configuração local do editor (contém usuário e caminhos da máquina)
+.claude/
